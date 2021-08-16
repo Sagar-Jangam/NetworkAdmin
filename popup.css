@@ -1,0 +1,69 @@
+html{
+  background-color: white;
+  border: solid 0.1px;
+  border-radius: 10px;
+}
+body {
+  width: 350px;
+  margin: 0px;
+}
+
+.divoption {
+text-align: center;
+}
+.divoutput{
+display: none;
+}
+
+.button {
+  margin: 10px;
+  padding: 1px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  border: solid .5px;
+  font-size: 14px;
+  background-color: #0073e6;
+  color: white;
+}
+
+.option:hover {
+  background-color: #CFF2F2;
+}
+
+.option {
+  background-color: #E5F2F2;
+}
+
+.reset {
+  background-color: #FBFBC9;
+}
+
+.reset:hover {
+  background-color: #EAEA9D;
+}
+
+.response {
+  margin: 3% auto;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 2px ;
+  border-color: #0073e6;
+  height: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.input {
+  margin: 3% auto;
+  padding: 2px;
+  cursor: pointer;
+  width: auto;
+  border-radius: 5px;
+  border: solid 1px ;
+  height: auto;
+  font-size: 14px;
+}
